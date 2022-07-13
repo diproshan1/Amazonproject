@@ -1,0 +1,18 @@
+<suite name="AmazonYourAccount" >
+
+	<test name="AllTest " >
+		<classes>
+			<class name="testLayer.HomepageTest" />
+
+			<class name="testLayer.LoginTest" />
+
+			<class name="testLayer.YouraddressTest" />
+			
+			<class name="testLayer.YourOrdersTest" />
+			
+		</classes>
+		<parameter name="login" value="mytesting189@gmail.com" />
+	</test>
+	
+	
+</suite> 
